@@ -1,10 +1,11 @@
 h1.title{
     color: #0186DA;
+    font-weight: bold;
 }
 div.box{
 
 }
-h1.url-shortner{
+.url-shortner{
     
 }
 .btn-shorten{
