@@ -1,0 +1,23 @@
+h1.title{
+    color: #0186DA;
+}
+div.box{
+
+}
+h1.url-shortner{
+    
+}
+.btn-shorten{
+    background-color: #0186DA;
+    color: white;
+    border: 1px solid #0186DA ;
+}
+
+.btn-shorten:hover{
+    background-color: #0186DA;
+    color: white;
+    opacity: 0.8;
+}
+div.content{
+    text-align: center;
+}
