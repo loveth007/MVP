@@ -1,0 +1,39 @@
+{
+  "name": "slicr_url_shortener",
+  "version": "1.0.0",
+  "description": "repository for slicr_url_shortener project",
+  "main": "app.js",
+  "dependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.7",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "babel-node app.js",
+    "dev": "nodemon --exec babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solomon-prosperity/Tourism-App-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solomon-prosperity/Tourism-App-BE/issues"
+  },
+  "homepage": "https://github.com/solomon-prosperity/Tourism-App-BE#readme"
+}
