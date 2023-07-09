@@ -20,6 +20,7 @@ export default function Linkly() {
         setLoading(true);
         setLongUrl('');
         setCustom('');
+        setShortUrl('');
         fetch(url, {
           method: 'POST',
           headers: {
@@ -87,8 +88,8 @@ export default function Linkly() {
                        <Spinner animation="border" role="status" className='input-spinner'><span className="visually-hidden">Loading...</span></Spinner>
                        :
                        <Button type='submit' className='input-btn'>
-                           <span className='d-none d-lg-block'>Shorten Now</span> 
-                        <img className='input-btn-arrow d-lg-none' src={Arrow} alt="" />
+                           <span className='d-none d-md-block'>Shorten Now</span> 
+                        <img className='input-btn-arrow d-md-none' src={Arrow} alt="" />
                         </Button>}
                       </Form>
                     </div>
