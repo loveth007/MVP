@@ -168,7 +168,7 @@ export default function Linkly() {
               </Row>
             </Form>
             {shortUrl ? success ? <Row className='justify-content-center mt-3 mb-1'>
-                <Col xs = 'auto'>
+                <Col xs = 'auto' sm = 'auto'>
                     {show && <Alert onClose={() => setShow(false)} dismissible variant='success' className="animate__animated animate__bounce animate__fast" style={{fontFamily: "Inter"}}><strong>Your Shortened URL: </strong> 
                     <a href={'https://' + generatedUrl} target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}>{generatedUrl}</a>
                     </Alert>}
@@ -177,7 +177,7 @@ export default function Linkly() {
             :
             <Row className='justify-content-center mt-3 mb-1'>
                 <Col xs = 'auto'>
-                    {show && <Alert onClose={() => setShow(false)} dismissible variant='success' className="animate__animated animate__bounce animate__fast" style={{fontFamily: "Inter"}}>
+                    {show && <Alert onClose={() => setShow(false)} dismissible variant='warning' className="animate__animated animate__bounce animate__fast" style={{fontFamily: "Inter"}}>
                         {shortUrl}
                     </Alert>}
                 </Col>
