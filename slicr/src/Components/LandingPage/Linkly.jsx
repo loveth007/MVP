@@ -139,8 +139,15 @@ export default function Linkly() {
                   <Col xs = 'auto'>
                       <div style={{position:'relative'}}>
                           <img src={Link} alt="" className='input-link'/>
-                              <input className='input-url' type="text" placeholder='Enter a back-half (optional)' value={custom} 
-                              
+                              <input className='input-url d-none d-sm-block' type="text" placeholder='Enter a back-half (optional)' value={custom} 
+                              onChange={(e)=>{
+                                var input = e.target.value;
+                                if (input.indexOf(' ') >= 0) {
+                                  e.target.value = input.replace(/\s/g, ''); // Remove all spaces
+                                }                        
+                                setCustom(e.target.value)
+                                }}/>
+                                <input className='input-url d-sm-none' type="text" placeholder='Back-half (optional)' value={custom} 
                               onChange={(e)=>{
                                 var input = e.target.value;
                                 if (input.indexOf(' ') >= 0) {
