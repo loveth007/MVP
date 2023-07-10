@@ -3,8 +3,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Auth from './Components/Auth/Auth';
 import Dashboard from './Components/Dashboard/Dashboard';
-import Linkly from './Linkly';
-
+import Linkly from './Components/LandingPage/Linkly';
+import Navbar from './Components/Navbar/Navbar';
 export default function App() {
   return (
     // <BrowserRouter>
@@ -14,6 +14,7 @@ export default function App() {
     //     <Route path='/dashboard' element = {<Dashboard />} />
     //   </Routes>
     // </BrowserRouter>
+    // <Navbar />
     <Linkly />
   )
 }
