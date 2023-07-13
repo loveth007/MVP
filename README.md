@@ -1,3 +1,7 @@
+![image](https://github.com/loveth007/MVP/assets/113848577/7a2c7836-1cc4-4811-acaf-abfe14e374ba)
+
+
+
 # URL SHORTENER (SLICR)
 
 Slicr is an online URL shortener and QR code generator. This Project intends to solve the problem of long URLs by providing a shorter and more manageable alternative. The primary goal is to create concise and easily shareable URLs that are convenient for users to type, remember, or transmit through various communication channels, and also generate QR codes for these URLs.
