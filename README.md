@@ -30,7 +30,11 @@ Please adhere to this project's code of conduct.
 Here are some related projects
 
 https://tinyurl.com/
+
 https://bitly.com/
 
+
+License
+This project is licensed under MIT
 
 
